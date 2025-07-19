@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json.Linq;
+er﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Drawing;
 using System.Linq;
@@ -87,7 +87,7 @@ namespace WeatherApp
 
         private async void btnGetWeather_Click(object sender, EventArgs e)
         {
-            string apiKey = "073e27c0d404a8fc35aa33efe55da52b";
+            string apiKey = "ENTER YOUR OWN API KEY";
             string city = txtCity.Text.Trim();
 
             if (string.IsNullOrEmpty(city))
